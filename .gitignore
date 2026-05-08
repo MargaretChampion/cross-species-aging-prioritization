@@ -50,6 +50,16 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Ignore all spreadsheets/tables by default
+*.csv
+*.xlsx
+*.xls
+
+# BUT keep curated exports
+!export_cleaned_files/
+!export_cleaned_files/*.csv
+!export_cleaned_files/*.xlsx
+
 # Ignore my data
 input_DEGs_of_interest/*.xlsx
 input_DEGs_of_interest/*.csv
