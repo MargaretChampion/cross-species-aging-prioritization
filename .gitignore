@@ -49,3 +49,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore my data
+input_DEGs_of_interest/*.xlsx
+input_DEGs_of_interest/*.csv
